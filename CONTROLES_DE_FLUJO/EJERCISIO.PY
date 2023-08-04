@@ -5,7 +5,7 @@
 #[{longitud:6, nombre:"bosque",posicion:0 },{},{}]
 
 
-lista=["gato","perro","canario"]
+lista=["palmera","roble","sauce"]
 def elementos(lista):
    lista_elementos=[]
    for indice,valor in enumerate(lista):
@@ -32,12 +32,12 @@ edad=[50,15,10]
 completo=nombre+edad
 def alumnos(nombre,edad):
     alumnos=[]
-    for i in range(len(nombre)):
+    for o in range(len(nombre)):
         
         objeto={
-                'nombre':nombre[i],
-                'edades':edad[i],
-                'completo':f"{nombre[i]} {edad[i]}"
+                'nombre':nombre[o],
+                'edades':edad[o],
+                'completo':f"{nombre[o]} {edad[o]}"
         }
         alumnos.append(objeto)
     return alumnos
